@@ -31,6 +31,7 @@ Number.prototype.toFixed = function (d) {
     };
     
     // 时间格式化成任意格式 传入需要匹配的字符串 y:年 M:月 d:天 h:小时 m:分钟 s:秒 
+    // (new Date(需要转换的时间，当为空时默认就是当前时间)).format("yyyy-MM-dd hh:mm:ss")
     Date.prototype.format = function (_format) {
         if (!_format) return this;
         //转换小于10的数字
