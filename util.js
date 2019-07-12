@@ -204,3 +204,34 @@ Number.prototype.toFixed = function (d) {
         // 防止多次重复绑定
         container.data('isBindScroll', true);
     };
+
+
+    /* 滑动栏滑动顺畅且没有滚动条 */
+        .scroll {
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+            overflow-scrolling: touch;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+        .scroll::scrollbar{
+            background-color:transparent;
+            height: 0;
+        }
+        .scroll::-webkit-scrollbar{
+            background-color:transparent;
+            height: 0;
+        }
+        .scroll::-moz-scrollbar{
+            background-color:transparent;
+            height: 0;
+        }
+        .scroll::-o-scrollbar{
+            background-color:transparent;
+            height: 0;
+        }
+        .scroll::-ms-scrollbar{
+            background-color:transparent;
+            height: 0;
+        }
