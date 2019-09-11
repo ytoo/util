@@ -235,3 +235,8 @@ Number.prototype.toFixed = function (d) {
             background-color:transparent;
             height: 0;
         }
+
+        md文件转换成html文件
+        全局安装  npm i –g i5ting_toc
+        然后在md所在目录执行  i5ting_toc –f readme.md -o
+
