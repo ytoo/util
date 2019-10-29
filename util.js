@@ -240,3 +240,41 @@ Number.prototype.toFixed = function (d) {
         全局安装  npm i –g i5ting_toc
         然后在md所在目录执行  i5ting_toc –f readme.md -o
 
+
+
+       @media screen and (min-width: 410px) {
+    html {
+        font-size: 345%;
+    }
+}
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 469%;
+    }
+}
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 625%;
+    }
+}
+
+@media screen and (min-width: 645px) and (-webkit-device-pixel-ratio: 3){/*兼容全屏*/
+    html {
+        font-size: 615%;
+    }
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+    html {
+        font-size: 260%;
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+    html {
+        font-size: 260%;
+    }
+}
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+  html {
+      font-size: 350%;
+  }
+}
